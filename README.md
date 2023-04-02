@@ -1,2 +1,2 @@
-# issues-wizard
-Smart Github Issues Management with AI.
+# issues-patrol
+Tame Your GitHub Issues with AI.
