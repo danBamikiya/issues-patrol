@@ -3,7 +3,7 @@ const { context } = require("@actions/github");
 
 try {
   const githubRepoDescription = core.getInput("repo-description");
-  const issueTemplate = core.getInput("issue-template");
+  const issuesTemplate = core.getInput("issues-template");
   const aiModel = core.getInput("gpt-model");
   const githubRepo = context.payload.repository.full_name;
   const issueTitle = context.payload.issue.title;

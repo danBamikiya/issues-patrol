@@ -1,9 +1,9 @@
-name: "Issue QL"
+name: "Issues QL"
 author: "Dan Bamikiya <twitter.com/@danBamikiya>"
 description: "Tame your GitHub Issues with AI"
 inputs:
-  issue-template:
-    description: "Did you set an issue template?"
+  issues-template:
+    description: "Did you set an Issues Template?"
     default: "false"
   gpt-model:
     description: "The OpenAI model to be used"
