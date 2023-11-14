@@ -10,11 +10,13 @@ try {
   const issueDescription = context.payload.issue.body;
 
   console.log(`
-  This repo is ${githubRepo} and it ${githubRepoDescription}.
+  Full repo name: ${githubRepo}
+  Repo description: ${githubRepoDescription}
 
   The title of the issue is: ${issueTitle}
 
-  The body of the issue is ${issueDescription}`);
+  The body of the issue is:
+  ${issueDescription}`);
 
   // const parsedResponseMessage = "";
   // core.setOutput("is-low-quality-issue", parsedResponseMessage);
