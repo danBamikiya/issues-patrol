@@ -1,0 +1,20 @@
+name: "Issue QL"
+author: "Dan Bamikiya <twitter.com/@danBamikiya>"
+description: "Tame your GitHub Issues with AI"
+inputs:
+  issue-template:
+    description: "Did you set an issue template?"
+    default: "false"
+  gpt-model:
+    description: "The OpenAI model to be used"
+    default: "darvinci"
+  repo-description:
+    description: "Description of the Github Repo this action will run in"
+    required: true
+outputs:
+  is-low-quality-issue:
+    description: "The ai model response"
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
