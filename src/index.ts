@@ -20,6 +20,6 @@ try {
 
   // const parsedResponseMessage = "";
   // core.setOutput("is-low-quality-issue", parsedResponseMessage);
-} catch (error) {
+} catch (error: any) {
   core.setFailed(error.message);
 }
